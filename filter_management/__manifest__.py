@@ -24,7 +24,6 @@ and only show relevant ones for a cleaner UI and better reporting.
     ],
 
 	'images': [
-        'static/description/icon.png',
         'static/description/banner.png',
         'static/description/image_1.jpeg',
         'static/description/image_2.jpeg',
