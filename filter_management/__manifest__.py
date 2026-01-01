@@ -10,7 +10,7 @@ and only show relevant ones for a cleaner UI and better reporting.
     'version': '16.0.1',
     'sequence': 50,
     'author': "Muhammad Mubeen",
-    'website': "https://www.linkedin.com/in/muhammad-mubeen-1601b12a7/",
+    'linkedin': "https://www.linkedin.com/in/muhammad-mubeen-1601b12a7/",
     'license': 'LGPL-3',
 	'support': 'mubeenodoo@gmail.com',
     'category': 'Tools',  # App store friendly category
