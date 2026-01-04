@@ -1,0 +1,39 @@
+# -*- coding: utf-8 -*-
+{
+    'name': "Filter Management",
+    'summary': "Control which fields appear in filters and group by for any model",
+    'description': """
+Filter Management module allows you to select a model and manage which fields appear
+in the search filters and group by options in list/tree views. You can hide extra fields
+and only show relevant ones for a cleaner UI and better reporting.
+""",
+    'category': 'Technical',
+    'version': '19.0.1.0',
+    'author': "Muhammad Mubeen",
+    'license': 'LGPL-3',
+    'support': 'mubeenodoo@gmail.com',
+    'price': 15.0,
+    'currency': 'USD',
+
+    'depends': [
+        'base',
+        'mail',
+    ],
+
+    'images': [
+        'static/description/banner.png',
+        'static/description/image_1.jpeg',
+        'static/description/image_2.jpeg',
+        'static/description/image_3.jpeg',
+        'static/description/image_4.jpeg',
+    ],
+
+    'data': [
+        'security/ir.model.access.csv',
+        'views/views.xml',
+    ],
+
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}
